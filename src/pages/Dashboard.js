@@ -8,7 +8,7 @@ const DashboardContainer = styled.div`
 function Dashboard() {
   return (
     <DashboardContainer>
-      <h2>Dashboard</h2>
+      <h1>Dashboard</h1>
 
     </DashboardContainer>
   );
