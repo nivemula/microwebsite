@@ -1,15 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
+import Header from './Header';
 
 const DashboardContainer = styled.div`
-  padding: 20px;
+  padding: 40px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
 `;
 
 function Dashboard() {
   return (
     <DashboardContainer>
+        <Header/>
       <h2>Dashboard</h2>
-
+      {/* Add more dashboard elements here */}
     </DashboardContainer>
   );
 }
