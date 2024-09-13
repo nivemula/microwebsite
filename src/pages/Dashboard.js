@@ -12,7 +12,7 @@ function Dashboard() {
   return (
     <DashboardContainer>
         <Header/>
-      <h2>Dashboard</h2>
+      <h1>Dashboard</h1>
       {/* Add more dashboard elements here */}
     </DashboardContainer>
   );
