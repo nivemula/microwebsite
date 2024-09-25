@@ -30,7 +30,7 @@ function LoginPage() {
   return (
     <LoginPageContainer>
       <LoginForm>
-        <h1>Login</h1>
+        <h2>Login</h2>
         <form onSubmit={handleLogin}>
           <div>
             <label htmlFor="email">Email:</label>
