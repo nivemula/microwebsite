@@ -10,7 +10,7 @@ const HeaderContainer = styled.header`
 function Header() {
   return (
     <HeaderContainer>
-      <h2>My Application</h2>
+      <h1>My Application</h1>
     </HeaderContainer>
   );
 }
